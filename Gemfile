@@ -66,3 +66,5 @@ gem "active_model_serializers"
 gem "importmap-rails"
 
 gem "bootstrap", "~> 5.0"
+
+gem "sassc-rails"
