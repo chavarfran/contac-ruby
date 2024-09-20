@@ -68,3 +68,5 @@ gem "bootstrap"
 gem "sassc-rails"
 
 gem "jquery-rails"
+
+gem "font-awesome-sass"
