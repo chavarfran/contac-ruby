@@ -66,3 +66,5 @@ gem "active_model_serializers"
 gem "bootstrap"
 
 gem "sassc-rails"
+
+gem "jquery-rails"
