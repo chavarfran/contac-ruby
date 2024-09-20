@@ -63,8 +63,6 @@ gem "dotenv-rails"
 
 gem "active_model_serializers"
 
-gem "importmap-rails"
-
-gem "bootstrap", "~> 5.0"
+gem "bootstrap"
 
 gem "sassc-rails"
