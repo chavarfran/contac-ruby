@@ -72,3 +72,6 @@ gem "jquery-rails"
 gem "font-awesome-sass"
 
 gem "bcrypt"
+
+gem "annotate"
+ 

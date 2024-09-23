@@ -12,9 +12,10 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
-  root to: "static_page#index"
-  get "about", to: "static_page#about"
-  get "contact", to: "static_page#contact"
+  root              to: "static_page#index"
+  get "about",      to: "static_page#about"
+  get "contact",    to: "static_page#contact"
+
   resources :contacts
   resources :users, only: [ :new, :create ]
 end
