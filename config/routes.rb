@@ -14,5 +14,7 @@ Rails.application.routes.draw do
   # root "posts#index"
   root to: "static_page#index"
   get "about", to: "static_page#about"
-  # get "contact", to: "static_page#contact"
+  get "contact", to: "static_page#contact"
+  resources :contacts
+  resources :users, only: [ :new, :create ]
 end

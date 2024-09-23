@@ -70,3 +70,5 @@ gem "sassc-rails"
 gem "jquery-rails"
 
 gem "font-awesome-sass"
+
+gem "bcrypt"
