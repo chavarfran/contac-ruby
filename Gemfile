@@ -74,4 +74,3 @@ gem "font-awesome-sass"
 gem "bcrypt"
 
 gem "annotate"
- 
